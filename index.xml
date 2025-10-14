@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DrGoose</title><link>https://liaoshihang.com/</link><description>Recent content on DrGoose</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 13 Oct 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://liaoshihang.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello, Goose</title><link>https://liaoshihang.com/posts/first-post/</link><pubDate>Mon, 13 Oct 2025 10:00:00 +0800</pubDate><guid>https://liaoshihang.com/posts/first-post/</guid><description>&lt;p&gt;这是我的第一篇文章的摘要部分。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dr.Goose</title><link>https://liaoshihang.com/</link><description>Recent content on Dr.Goose</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Mon, 13 Oct 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://liaoshihang.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello, Goose</title><link>https://liaoshihang.com/posts/first-post/</link><pubDate>Mon, 13 Oct 2025 10:00:00 +0800</pubDate><guid>https://liaoshihang.com/posts/first-post/</guid><description>&lt;p&gt;这是我的第一篇文章的摘要部分。&lt;/p&gt;</description></item><item><title>Test Post</title><link>https://liaoshihang.com/en/posts/test-post/</link><pubDate>Mon, 13 Oct 2025 10:00:00 +0800</pubDate><guid>https://liaoshihang.com/en/posts/test-post/</guid><description>&lt;p&gt;This is a test post to verify multilingual functionality.&lt;/p&gt;
+&lt;h2 id="feature-testing"&gt;Feature Testing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Language switcher&lt;/li&gt;
+&lt;li&gt;Multilingual content&lt;/li&gt;
+&lt;li&gt;Navigation display&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>测试文章</title><link>https://liaoshihang.com/posts/test-post/</link><pubDate>Mon, 13 Oct 2025 10:00:00 +0800</pubDate><guid>https://liaoshihang.com/posts/test-post/</guid><description>&lt;p&gt;这是一篇测试文章，用于验证多语言功能。&lt;/p&gt;
+&lt;h2 id="功能测试"&gt;功能测试&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;语言切换器&lt;/li&gt;
+&lt;li&gt;多语言内容&lt;/li&gt;
+&lt;li&gt;导航栏显示&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
