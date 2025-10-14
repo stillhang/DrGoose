@@ -49,16 +49,16 @@ favicon = "favicon.ico"
 # customSyntaxHighlighting = true
 
 # options
-[params.navItems]
 stickyNav = true
-reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
-collapseNavItems = ["posts", "categories", "tags"]
 #noDefaultSummaryCover = true
 showTableOfContents = true
 showSummaryCoverInPost = true
 imageZoomableInPost = true
 showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
+[params.navItems]
+reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+collapseNavItems = ["posts", "categories", "tags"]
 
 
 # [params.twikoo]
