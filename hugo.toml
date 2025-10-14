@@ -1,6 +1,6 @@
 baseURL = "https://liaoshihang.com"
-defaultContentLanguage = "en"
-languageCode = "en"
+defaultContentLanguage = "zh"
+languageCode = "zh"
 title = "Dr.Goose"
 theme = "dream"
 [pagination]

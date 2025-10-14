@@ -2,6 +2,6 @@
 title: About Me
 ---
 
-Hi, my name is liaoshihang.
+Hi
 
 This is my blog.
