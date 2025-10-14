@@ -1,7 +1,7 @@
 baseURL = "https://liaoshihang.com"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "DrGoose"
+title = "Dr.Goose"
 theme = "dream"
 [pagination]
 pagerSize = 10
@@ -21,9 +21,9 @@ darkTheme = "forest"
 # backgroundImageDark = ""
 
 author = "liaoshihang"
-# description = ""
+description = "打发时间的个人站"
 avatar = "img/avatar.png"
-headerTitle = "DrGoose"
+headerTitle = "Dr.Goose"
 # motto = ""
 
 # footerBottomText = ""
