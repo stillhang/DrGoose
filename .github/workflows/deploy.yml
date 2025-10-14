@@ -15,7 +15,7 @@ jobs:
         with:
           hugo-version: '0.151.0'
       - name: Build
-        run: hugo --minify --themesDir themes
+        run: hugo --minify
       - name: Add CNAME
         run: echo "liaoshihang.com" > ./public/CNAME
       - name: Deploy to GitHub Pages
