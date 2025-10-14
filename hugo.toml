@@ -58,14 +58,14 @@ showSummaryCoverInPost = true
 imageZoomableInPost = true
 showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
-[[params.navItems]]
+[params.navItems]
 name = "GitHub"
 href = "https://github.com/liaoshihang"
 title = "GitHub"
 target = "_blank"
 weight = 3
 
-[[params.navItems]]
+[params.navItems]
 name = "归档"
 href = "/archives"
 title = "归档"
