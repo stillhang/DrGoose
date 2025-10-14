@@ -1,0 +1,26 @@
+{{ if gt (len .Site.Languages) 1 }}
+<div class="dropdown dropdown-end">
+  <div tabindex="0" role="button" class="btn btn-ghost btn-sm">
+    <ion-icon name="language" class="text-lg"></ion-icon>
+    <span class="hidden sm:inline">{{ .Site.Language.LanguageName }}</span>
+    <ion-icon name="chevron-down" class="text-sm"></ion-icon>
+  </div>
+  <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-50 w-32 p-2 shadow-lg">
+    {{ range .Site.Languages }}
+      {{ if ne .Lang $.Site.Language.Lang }}
+        {{ $url := "" }}
+        {{ if eq .Lang $.Site.Home.Language.Lang }}
+          {{ $url = $.Site.Home.RelPermalink }}
+        {{ else }}
+          {{ $url = printf "/%s/" .Lang }}
+        {{ end }}
+        <li>
+          <a href="{{ $url }}" class="text-sm">
+            {{ .LanguageName }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

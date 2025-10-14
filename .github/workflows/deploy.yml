@@ -3,7 +3,7 @@ name: Hugo Deploy
 on:
   push:
     branches:
-      - main
+      - feature/i18n
     paths:
       - 'content/**'
       - 'themes/**'
