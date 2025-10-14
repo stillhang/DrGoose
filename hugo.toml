@@ -50,7 +50,7 @@ favicon = "favicon.ico"
 
 # options
 stickyNav = true
-reorderNavItems = ["about", "search", "rss", "posts", "archives", "categories", "tags"]
+reorderNavItems = ["about", "search", "rss", "posts", "GitHub", "归档", "categories", "tags"]
 collapseNavItems = ["categories", "tags"]
 #noDefaultSummaryCover = true
 showTableOfContents = true
@@ -60,12 +60,15 @@ showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 [[params.navItems]]
 name = "GitHub"
-url = "https://github.com/liaoshihang"
+href = "https://github.com/liaoshihang"
+title = "GitHub"
+target = "_blank"
 weight = 3
 
 [[params.navItems]]
 name = "归档"
-url = "/archives"
+href = "/archives"
+title = "归档"
 weight = 4
 
 
