@@ -101,13 +101,6 @@ draft: false
 - 导航栏设置
 - 样式主题选择
 
-
-## 👤 作者
-
-**liaoshihang**
-- GitHub: [@liaoshihang](https://github.com/liaoshihang)
-- 邮箱: liaoshihang@gmail.com
-
 ---
 
 *打发打发时间*
