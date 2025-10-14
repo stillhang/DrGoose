@@ -22,6 +22,6 @@ This is the first English post to test the multilingual functionality.
 - Multilingual content support
 - Responsive design
 
-## Getting Started
+## Getting Started 1
 
 You can switch between languages using the language switcher in the navigation bar.
