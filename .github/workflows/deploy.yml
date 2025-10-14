@@ -9,17 +9,30 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Hugo
+      # 1️⃣ 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ 安装 Hugo Extended
+      - name: Setup Hugo Extended
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.151.0'
-      - name: Build
+          extended: true
+
+      # 3️⃣ 构建 Hugo 网站
+      - name: Build site
         run: hugo --minify
+
+      # 4️⃣ 添加自定义域名
       - name: Add CNAME
         run: echo "liaoshihang.com" > ./public/CNAME
+
+      # 5️⃣ 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
