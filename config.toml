@@ -22,7 +22,7 @@ darkTheme = "forest"
 
 author = "liaoshihang"
 # description = ""
-# avatar = "img/avatar.png"
+avatar = "img/avatar.png"
 headerTitle = "DrGoose"
 # motto = ""
 
@@ -43,7 +43,7 @@ headerTitle = "DrGoose"
 
 siteStartYear = 2025
 
-# favicon = "favicon.ico"
+favicon = "favicon.ico"
 
 # Syntax highlighting
 # customSyntaxHighlighting = true
