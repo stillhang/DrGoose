@@ -3,7 +3,8 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "DrGoose"
 theme = "dream"
-
+[pagination]
+pagerSize = 10
 # [services]
 # [services.disqus]
 # shortname = ""
