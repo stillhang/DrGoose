@@ -59,6 +59,7 @@ imageZoomableInPost = true
 showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 [params.navItems]
+# 自定义导航项可以在这里添加
 
 
 # [params.twikoo]

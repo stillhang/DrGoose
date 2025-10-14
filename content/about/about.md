@@ -1,5 +1,7 @@
 ---
-title: About
+title: About Me
 ---
 
-Hi, It's an about test
+Hi, my name is liaoshihang.
+
+This is my blog.
