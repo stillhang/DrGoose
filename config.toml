@@ -49,14 +49,14 @@ favicon = "favicon.ico"
 # customSyntaxHighlighting = true
 
 # options
-#stickyNav = true
+stickyNav = true
 #reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
 #collapseNavItems = ["posts", "categories", "tags"]
 #noDefaultSummaryCover = true
-#showTableOfContents = true
-#showSummaryCoverInPost = true
-#imageZoomableInPost = true
-#showPrevNextPost = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 
 # [params.navItems]
@@ -67,10 +67,10 @@ favicon = "favicon.ico"
 # region = ""
 # lang = ""
 
-# [params.advanced]
+ [params.advanced]
 # customCSS = ["css/custom.css"]
 # customJS = []
 
-# [params.experimental]
-# jsDate = true
-# jsDateFormat = "yyyy年MM月dd日"
+ [params.experimental]
+ jsDate = true
+ jsDateFormat = "yyyy年MM月dd日"
