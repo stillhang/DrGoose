@@ -49,6 +49,7 @@ favicon = "favicon.ico"
 # customSyntaxHighlighting = true
 
 # options
+[params.navItems]
 stickyNav = true
 reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
 collapseNavItems = ["posts", "categories", "tags"]
@@ -59,7 +60,6 @@ imageZoomableInPost = true
 showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 
-# [params.navItems]
 
 # [params.twikoo]
 # enabled = true
