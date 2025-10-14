@@ -1,0 +1,138 @@
+baseURL = "https://liaoshihang.com"
+defaultContentLanguage = "zh"
+languageCode = "zh"
+title = "Dr.Goose"
+theme = "dream"
+
+[languages]
+[languages.zh]
+title = "Dr.Goose"
+languageName = "中文"
+weight = 1
+contentDir = "content"
+baseURL = "https://liaoshihang.com/"
+
+[languages.zh.params]
+author = "liaoshihang"
+description = "打发时间的个人站"
+avatar = "img/avatar.png"
+headerTitle = "Dr.Goose"
+email = "liaoshihang@gmail.com"
+siteStartYear = 2025
+favicon = "favicon.ico"
+stickyNav = true
+reorderNavItems = ["about","github", "search", "series"]
+collapseNavItems = ["posts", "categories", "tags"]
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+jsDate = true
+jsDateFormat = "yyyy年MM月dd日"
+
+[languages.zh.params.navItems]
+github = { href = "https://github.com/stillhang", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[languages.en]
+title = "Dr.Goose"
+languageName = "English"
+weight = 2
+contentDir = "content/en"
+baseURL = "https://liaoshihang.com/en/"
+
+[languages.en.params]
+author = "liaoshihang"
+description = "Personal website for passing time"
+avatar = "img/avatar.png"
+headerTitle = "Dr.Goose"
+email = "liaoshihang@gmail.com"
+siteStartYear = 2025
+favicon = "favicon.ico"
+stickyNav = true
+reorderNavItems = ["about","github", "search", "series"]
+collapseNavItems = ["posts", "categories", "tags"]
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+jsDate = true
+jsDateFormat = "yyyy-MM-dd"
+
+[languages.en.params.navItems]
+github = { href = "https://github.com/stillhang", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[pagination]
+pagerSize = 10
+# [services]
+# [services.disqus]
+# shortname = ""
+# [services.googleAnalytics]
+# ID = ""
+
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "img/global-background.jpg"
+# backgroundImageDark = ""
+
+author = "liaoshihang"
+description = "打发时间的个人站"
+avatar = "img/avatar.png"
+headerTitle = "Dr.Goose"
+# motto = ""
+
+# footerBottomText = ""
+
+# rss = true
+
+# utterancesRepo = ""
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+email = "liaoshihang@gmail.com"
+
+siteStartYear = 2025
+
+favicon = "favicon.ico"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+reorderNavItems = ["about","github", "search", "series"]
+collapseNavItems = ["posts", "categories", "tags",]
+
+#reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+#collapseNavItems = ["posts", "categories", "tags"]
+#noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+#reorderShares = ["x", "facebook", "whatsapp"]
+[params.navItems]
+# 自定义导航项可以在这里添加
+github = { href = "https://github.com/stillhang", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+# [params.twikoo]
+# enabled = true
+# envID = ""
+# region = ""
+# lang = ""
+
+[params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+
+[params.experimental]
+jsDate = true
+jsDateFormat = "yyyy年MM月dd日"
