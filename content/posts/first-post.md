@@ -5,7 +5,7 @@ lastmod: 2025-10-13T10:00:00+08:00
 author: liaoshihang
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
+#cover: /img/cover.jpg
 # images:
 #   - /img/cover.jpg
 categories:
