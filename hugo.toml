@@ -50,8 +50,8 @@ favicon = "favicon.ico"
 
 # options
 stickyNav = true
-reorderNavItems = ["github", "about", "search", "rss", "posts", "categories", "tags", "series"]
-collapseNavItems = ["series"]
+reorderNavItems = ["about","github", "search", "series"]
+collapseNavItems = ["posts", "categories", "tags",]
 
 #reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
 #collapseNavItems = ["posts", "categories", "tags"]
@@ -63,7 +63,6 @@ showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 [params.navItems]
 # 自定义导航项可以在这里添加
-series = { href = "/series", icon = "planet", title = "Series" }
 github = { href = "https://github.com/stillhang", target = "_blank", icon = "logo-github", title = "GitHub" }
 
 # [params.twikoo]
