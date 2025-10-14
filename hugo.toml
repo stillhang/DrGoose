@@ -50,6 +50,9 @@ favicon = "favicon.ico"
 
 # options
 stickyNav = true
+reorderNavItems = ["github", "about", "search", "rss", "posts", "categories", "tags", "series"]
+collapseNavItems = ["series"]
+
 #reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
 #collapseNavItems = ["posts", "categories", "tags"]
 #noDefaultSummaryCover = true
