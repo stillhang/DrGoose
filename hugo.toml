@@ -28,7 +28,7 @@ headerTitle = "DrGoose"
 
 # footerBottomText = ""
 
-rss = true
+# rss = true
 
 # utterancesRepo = ""
 
@@ -50,8 +50,8 @@ favicon = "favicon.ico"
 
 # options
 stickyNav = true
-reorderNavItems = ["about", "search", "rss", "posts", "GitHub", "归档", "categories", "tags"]
-collapseNavItems = ["categories", "tags"]
+#reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+#collapseNavItems = ["posts", "categories", "tags"]
 #noDefaultSummaryCover = true
 showTableOfContents = true
 showSummaryCoverInPost = true
@@ -59,17 +59,7 @@ imageZoomableInPost = true
 showPrevNextPost = true
 #reorderShares = ["x", "facebook", "whatsapp"]
 [params.navItems]
-name = "GitHub"
-href = "https://github.com/liaoshihang"
-title = "GitHub"
-target = "_blank"
-weight = 3
-
-[params.navItems]
-name = "归档"
-href = "/archives"
-title = "归档"
-weight = 4
+# 自定义导航项可以在这里添加
 
 
 # [params.twikoo]
