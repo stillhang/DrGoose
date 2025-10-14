@@ -1,0 +1,9 @@
+baseURL = "https://liaoshihang.com"
+languageCode = "en-us"
+title = "DrGoose"
+theme = "dream" # 默认主题
+[pagination]
+pagerSize = 10
+
+[params]
+  description = "记录我的成长和学习"

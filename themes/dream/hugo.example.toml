@@ -1,7 +1,7 @@
-baseURL = "https://liaoshihang.com"
+baseurl = "https://example.com"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "DrGoose"
+title = "Hugo Theme Dream"
 theme = "dream"
 
 # [services]
@@ -19,10 +19,10 @@ darkTheme = "forest"
 # backgroundImage = "img/global-background.jpg"
 # backgroundImageDark = ""
 
-author = "liaoshihang"
+author = "Dream"
 # description = ""
 # avatar = "img/avatar.png"
-headerTitle = "DrGoose"
+headerTitle = "Hugo Theme Dream"
 # motto = ""
 
 # footerBottomText = ""
@@ -40,7 +40,7 @@ headerTitle = "DrGoose"
 
 # email = ""
 
-siteStartYear = 2025
+siteStartYear = 2016
 
 # favicon = "favicon.ico"
 
