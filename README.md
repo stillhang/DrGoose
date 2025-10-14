@@ -36,6 +36,7 @@
   - 执行 `hugo --minify` 构建静态文件
   - 部署到 GitHub Pages
 - **输出目录**: `public/`
+- **输出分支**: `gh-pages`
 - **部署地址**: `https://liaoshihang.com`
 
 ### 部署配置
