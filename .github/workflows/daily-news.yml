@@ -1,0 +1,42 @@
+name: Daily AI News
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 每天北京时间 09:00
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser
+
+      - name: Fetch news & generate post
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          SITE_URL: https://liaoshihang.com
+        run: python scripts/fetch_news.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/posts/
+          git diff --cached --quiet && echo "No new content" || \
+            git commit -m "📰 AI 日报 $(date +%Y-%m-%d)"
+          git push
