@@ -79,6 +79,8 @@ async def on_message(message):
             )
 
         except Exception as e:
-            await message.reply(f'❌ 生成失败：{str(e)}')
+            import traceback
+            traceback.print_exc()
+            await message.reply(f'❌ 生成失败：{type(e).__name__}: {str(e)}')
 
 client.run(DISCORD_TOKEN)
