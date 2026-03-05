@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "pip install -r bot/requirements.txt && python3 bot/assistant.py"
+restartPolicyType = "on_failure"
