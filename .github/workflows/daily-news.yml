@@ -32,7 +32,7 @@ jobs:
           SITE_URL: https://liaoshihang.com
         run: python scripts/fetch_news.py
 
-      - name: Commit and push
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -41,12 +41,33 @@ jobs:
             echo "HAS_NEW=false" >> $GITHUB_ENV
           else
             git commit -m "📰 AI 日报 $(date +%Y-%m-%d)"
-            git push
             echo "HAS_NEW=true" >> $GITHUB_ENV
           fi
 
-      - name: Trigger Hugo Deploy
+      - name: Setup Hugo
         if: env.HAS_NEW == 'true'
-        run: gh workflow run deploy.yml --ref main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.151.0'
+          extended: true
+
+      - name: Build site
+        if: env.HAS_NEW == 'true'
+        run: hugo --minify
+
+      - name: Add CNAME
+        if: env.HAS_NEW == 'true'
+        run: echo "liaoshihang.com" > ./public/CNAME
+
+      - name: Deploy to GitHub Pages
+        if: env.HAS_NEW == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+
+      - name: Push source commit
+        if: env.HAS_NEW == 'true'
+        run: git push
