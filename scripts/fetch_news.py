@@ -80,11 +80,14 @@ def build_post(date_str, date_full, hn, verge, arxiv):
                 lines.append(f'  > {item["summary"]}')
         return '\n'.join(lines) + '\n'
 
+    cover = "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&auto=format&fit=crop"
+
     return f"""---
 title: "AI 动态日报 · {date_str}"
 date: {date_full}
 lastmod: {date_full}
 author: liaoshihang
+cover: {cover}
 categories:
   - AI 动态
 tags:
